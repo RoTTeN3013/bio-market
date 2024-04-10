@@ -1,0 +1,56 @@
+<div class="section" id="arajanlat">
+    <div class="column_wrapper">
+        <h2 class="section_tag">Rendelés leadása</h2>
+        <form id="order_form" action="" method="">
+            <input type="text" name="name" autocomplete="off" placeholder="Teljes név" required>
+            <input type="email" name="email" autocomplete="off" placeholder="Email cím" required>
+            <label for="countries">Telefonszám (országkód)</label>
+            <select name="countries">
+                <option value="0036">+36 (Magyarország)</option>
+                <option value="0044">+44 (United Kingdom)</option>
+                <option value="0049">+49 (Germany)</option>
+            </select>
+            <input type="tel" name="phone" placeholder="Telefonszám" required>
+            <label for="countries_address">Cím (ország)</label>
+            <select name="countries_address" >
+                <option value="Magyarorszag">Magyarország</option>
+                <option value="United kingdom">United Kingdom</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <input type="text" name="address_line_1" placeholder="Város" required>
+            <input type="text" name="address_line_2" placeholder="Utca" required>
+            <input type="text" name="address_line_3" placeholder="Házszám / Emelet" required>
+            <input type="text" name="address_line_4" placeholder="Postakód" required>
+            <label for="product">Válassz terméket</label>
+            <select name="product" >
+                <option value="alma">Alma</option>
+                <option value="narancs">Narancs</option>
+                <option value="eper">Eper</option>
+                <option value="mandarin">Mandarin</option>
+                <option value="dinnye">Dinnye</option>
+                <option value="banan">Banán</option>
+                <option value="kiwi">Kiwi</option>
+                <option value="afonya">Áfonya</option>
+                <option value="szilva">szilva</option>
+                <option value="szolo">Szőlő</option>
+                <option value="cseresznye">Cseresznye</option>
+                <option value="paprika">Paprika</option>
+                <option value="retek">Retek</option>
+                <option value="hagyma">Hagyma</option>
+                <option value="ujhagyma">Újhagyma</option>
+                <option value="paradicsom">Paradicsom</option>
+                <option value="uborka">Uborka</option>
+                <option value="saláta">Saláta</option>
+            </select>
+            <label for="weight">Válassz mennyiséget</label>
+            <select name="weight" >
+                <option value="1">1KG</option>
+                <option value="2">2KG</option>
+                <option value="3">3KG</option>
+                <option value="5">5KG</option>
+            </select>
+            <textarea name="message" id="message" rows="5" cols="50" placeholder="Üzenet (opcionális)"></textarea>
+            <input class="form_btn" type="submit" value="Küldés">
+        </form>
+    </div>
+</div>
